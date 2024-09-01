@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+    background-color: rgb(236, 246, 255);
+}
+/* ESTILIZAÇÃO DO MENU DO SITE*/
+.menu {
+    background-color: rgb(41, 41, 41);
+    display: flex; 
+    justify-content: center;
+}
+
+.menu ul {
+    display: flex; 
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    
+}
+
+.menu li {
+    margin: 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px; 
+    display: block;
+    font-size: 30px;
+}
+.menu a:hover {
+    background-color: #555;
+    color: rgb(39, 40, 97); 
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* ESTILIZAÇÃO PADRÃO DOS TEXTOS PRINCIPAIS DE CADA PAGINA */
+.conteúdo h1{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif,;
+    color: rgb(39, 40, 97);
+    text-shadow: 0px 2px rgb(4, 40, 255);
+    font-size: 50px;
+    border: solid rgb(0, 0, 0);
+    border-radius: 500px 500px 50px 50px;
+    border-style: ridge;
+    border-width: 15px;
+    background-color: rgb(158, 158, 158);
+    margin-left: 300px;
+    margin-right: 300px;
+}
+/* ESTILIZAÇÃO DA PAGINA "SOBRE MIM" E "CONTATO*/
+.conteúdo h2{
+    
+    margin-left: 300px;
+    margin-right: 300px;
+    border: solid black;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: rgb(172, 172, 172);
+    font-family: 'Courier New', Courier, monospace;
+    border-style: ridge;
+    border-width: 15px;
+}
+.conteúdo i{
+    color: rgb(52, 70, 173);
+}
+/* ESTILIZAÇÃO DA PAGINA DE FORMAÇÃO*/
+.conteúdo li{
+    font-size: 30px;
+    background-color: rgb(60, 60, 88);
+    color: white;
+    padding: 15px;
+    
+}
+.conteúdo ul{
+    list-style-type: none;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 5px; 
+}
+/* ESTILIZAÇÃO DA PAGINA DE PORTFOLIOS*/
+.portfólios{
+    border: grey dashed;
+    background-color: rgb(204, 208, 240);
+    margin-bottom: 20px;
+}
+/* ESTILIZAÇÃO DOS INPUTS DA PAGINA DE CONTATO*/
+.nome{
+    margin-left: 144px;
+}
+.email{
+    margin-left: 173px;
+}
+.botao{
+    margin-top: 15px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    background-color: #555;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
